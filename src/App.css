@@ -1,0 +1,22 @@
+.App{
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: auto;
+    overflow: hidden;
+}
+.skills{
+    max-width: 89%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.experience{
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
