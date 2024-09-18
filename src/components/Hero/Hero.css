@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: red;
 }
 .Hero .textSide .icons{
     display: flex;
