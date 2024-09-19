@@ -1,0 +1,43 @@
+.App{
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: auto;
+    overflow: hidden;
+}
+.skills{
+    max-width: 89%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.experience{
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom:  100px;
+}
+.myProjectsSection{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    padding-bottom: 100px;
+}
+.testimonialsSection{
+    width: 89%;
+    margin: auto;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+.allTestimonials{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}

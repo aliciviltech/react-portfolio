@@ -1,0 +1,14 @@
+.MySkill{
+    width: 186px;
+    height: 186px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.MySkill img{
+    width: 56px;
+    height: 56px;
+}

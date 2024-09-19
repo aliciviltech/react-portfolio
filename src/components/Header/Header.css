@@ -1,0 +1,63 @@
+.Header{
+    max-width: 89%;
+    height: 56px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .logo{
+    display: flex;
+    align-items: center;
+}
+.Header .logo img{
+    width: 40px;
+}
+.Header .anchors{
+    display: flex;
+    gap: clamp(10px, 4vw, 40px);
+}
+.Header .anchors a{
+    color: #000;
+}
+.Header .anchors .button{
+    display: none;
+}
+.menuBars{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .Header{
+        position: relative;
+    }
+    .Header .anchors{
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px gray;
+        color: #fff;
+        position: absolute;
+        top: 60px;
+        right: -150%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 40px;
+        align-items: center;
+        transition: 0.3s;
+        z-index: 1;
+    }
+    .Header .showMenu{
+        right: 0;
+        transition: 0.3s;
+    }
+    .Header .anchors .button{
+        display: block;
+    }
+    .Header .button{
+        display: none;
+    }
+    .menuBars{
+        display: block;
+    }
+}

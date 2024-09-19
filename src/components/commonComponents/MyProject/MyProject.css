@@ -1,0 +1,51 @@
+.MyProject{
+    width: 89%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flipSides{
+    flex-direction: row-reverse;
+}
+.MyProject .imageSide{
+    width: 47%;
+}
+.MyProject .textSide{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.MyProject .textSide img{
+    width: 20px;
+    cursor: pointer;
+} 
+.MyProject .imageSide img{
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {
+    .MyProject{
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #757575;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .MyProject .imageSide{
+        width: 100%;
+    }
+    .MyProject .textSide{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .MyProject{
+        width: 95%;
+   }
+   .MyProject .textSide{
+    text-align: justify;
+}
+}

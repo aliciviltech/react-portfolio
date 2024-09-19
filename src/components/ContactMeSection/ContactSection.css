@@ -1,0 +1,81 @@
+.ContactSection{
+    width: 89%;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ContactSection .formSide{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ContactSection .textSide{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ContactSection .formSide .form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ContactSection .formSide .form input{
+    width: 90%;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: 1.4px solid black;
+}
+.ContactSection .formSide .form textarea{
+    width: 90% !important;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: 1.4px solid black;
+    height: 140px;
+    resize: none;
+}
+.ContactSection .formSide .buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media screen and (max-width: 1024px) {
+    .ContactSection{
+        min-height: unset;
+        flex-direction: column-reverse;
+        padding: 50px 0;
+        gap: 50px;
+    }
+    .ContactSection .formSide{
+        width: 90%;
+    }
+    .ContactSection .textSide{
+        width: 90%;
+    }
+    .ContactSection .formSide .form input{
+        width: 100%;
+    }
+    .ContactSection .formSide .form textarea{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .ContactSection{
+        width: 95%;
+    }
+    .ContactSection .formSide .form input{
+        padding: 10px 16px;
+    }
+    .ContactSection .formSide .form textarea{
+        padding: 10px 16px;
+    }
+    .ContactSection .formSide .buttons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
