@@ -1,7 +1,7 @@
 import React from 'react'
 import './ContactSection.css'
 import Button from '../commonComponents/Button/Button'
-import Icons from '../commonComponents/icons/icons'
+import Icons from '../commonComponents/icons/Icons'
 
 const ContactSection = () => {
   return (
