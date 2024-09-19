@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import bannerImage from '../../assets/images/Banner.png'
-import Icons from '../commonComponents/icons/icons'
+import Icons from '../commonComponents/icons/Icons'
 
 const Hero = () => {
   return (
