@@ -14,7 +14,6 @@ import AboutMe from './components/AboutMeSection/AboutMe'
 import MyProject from './components/commonComponents/MyProject/MyProject'
 import Testimonial from './components/commonComponents/Testimonial/Testimonial'
 import ContactSection from './components/ContactMeSection/ContactSection'
-import Icons from './components/commonComponents/icons/icons'
 
 const App = () => {
   return (
